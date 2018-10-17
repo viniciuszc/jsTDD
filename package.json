@@ -1,0 +1,23 @@
+{
+  "name": "jstdd",
+  "version": "1.0.0",
+  "description": "Curso JS TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinnyzc/jsTDD.git"
+  },
+  "keywords": [
+    "js",
+    "tdd"
+  ],
+  "author": "Vinicius Zonaro Chimello <vinicius@combodigital.net> (http://combodigital.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinnyzc/jsTDD/issues"
+  },
+  "homepage": "https://github.com/vinnyzc/jsTDD#readme"
+}
