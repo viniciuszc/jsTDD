@@ -4,6 +4,8 @@
   "description": "Curso JS TDD",
   "main": "index.js",
   "scripts": {
+    "lint": "node_modules\\.bin\\eslint source\\*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/vinnyzc/jsTDD/issues"
   },
-  "homepage": "https://github.com/vinnyzc/jsTDD#readme"
+  "homepage": "https://github.com/vinnyzc/jsTDD#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.1.2"
+  }
 }
